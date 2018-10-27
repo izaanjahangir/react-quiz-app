@@ -1,0 +1,12 @@
+.custom-btn{
+    cursor: pointer;
+}
+
+.custom-inherit{
+    height: inherit;
+    width: inherit
+}
+
+.justified-row{
+    justify-content: center
+}

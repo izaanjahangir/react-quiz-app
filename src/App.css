@@ -1,0 +1,66 @@
+:root{
+  --theme-color-light: #e67e22;
+  --theme-color-dark: #d35400;
+  --font-color-light: #ecf0f1;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.custom-loader-container{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--theme-color-dark) !important;
+  color: var(--font-color-light);
+  height: 70px;
+  width: 100%;
+  z-index: 1000;
+}
+
+header p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#app-body{
+  margin-top: 80px;
+}
+
+.custom-modal{
+  width: 400px;
+  height: 400px
+}
+.modal-image{
+  width: 100%;
+  height: 100%; 
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 575px){
+  .custom-modal{
+    width: 90%;
+    height: 450px;
+  }
+}
